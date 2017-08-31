@@ -5,6 +5,23 @@
  *
  * Made By MaterializeCSS.com
  */
+ .caballero-formulario{
+  box-shadow: 2px black solid;
+ }
+
+ .productosyservicios{
+  padding: 10px;
+ }
+ .caballero-productos{
+  margin: 20px;
+ }
+.caballero-servicios{
+  
+}
+
+.caballero-nosotros{
+  font-weight: bolder;
+}
 
 .formulario, .informacion{
   font-size: 20px;
