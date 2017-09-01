@@ -27,7 +27,7 @@
     </div>
     <div class="nav-content container">
       <ul class="tabs tabs-transparent blue-grey darken-2">
-        <li class="tab"><a class="active" href="#test1">INICIO</a></li>
+        <li class="tab"><a class="active" href="#inicio">INICIO</a></li>
         <li class="tab"><a href="#nosotros">NOSOTROS</a></li>
         <li class="tab"><a href="#trabajos">TRABAJOS</a></li>
         <li class="tab"><a href="#productosyservicios">PRODUCTOS Y SERVICIOS</a></li>
@@ -157,7 +157,7 @@
       </div>
 
 
-            <div class="card container col s12 m12 l6">
+      <div class="card container col s12 m12 l6">
         <div class="card-image waves-effect waves-block waves-light">
           <img class="activator" src="458.jpg">
         </div>
@@ -186,7 +186,7 @@
       </div>
 
 
-            <div class="card container col s12 m12 l6">
+      <div class="card container col s12 m12 l6">
         <div class="card-image waves-effect waves-block waves-light">
           <img class="activator" src="458.jpg">
         </div>
@@ -222,7 +222,7 @@
 
   </section>
 
-  <section id="test1">
+  <section id="inicio">
 
   <div class="slider">
     <ul class="slides">
@@ -389,24 +389,24 @@ De origen familiar y con dos generaciones implicadas en su trayectoria, la solid
 
 
     <div class="caballero-formulario">
-      <form class="col s12 m12 l12 center">
+      <form class="col s12 m12 l12 center" action="enviar.php" method="post">
       <P class="formulario">FORMULARIO DE CONTACTO</P>
         <div class="row">
           <div class="input-field col s12">
-            <input id="last_name" type="text" class="validate">
+            <input id="last_name" type="text" name="nombre" class="validate" required>
             <label for="last_name">Nombre</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <input id="email" type="email" class="validate">
+            <input id="email" type="email" name="correo" class="validate" required>
             <label for="email">Correo</label>
           </div>
         </div>
 
         <div class="row">
           <div class="input-field col s12">
-            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <textarea id="textarea1" name="mensaje" class="materialize-textarea" required></textarea>
             <label for="textarea1">Mensaje</label>
           </div>
         </div>
